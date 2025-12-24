@@ -1,8 +1,6 @@
 def solution(clothes):
     hash_map = {}
-    for cloth in clothes:
-        name = cloth[0]
-        category = cloth[1]
+    for _, category in clothes:
         if category in hash_map:
             hash_map[category] += 1
         else:
