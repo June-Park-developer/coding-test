@@ -15,5 +15,9 @@ def solution(bridge_length, weight, truck_weights):
             bridge.append(0)
         
     return t
-            
+        
+# deque 를 사용한 풀이도 해볼 것
+
+# 문제의 핵심 로직
+## bridge 를 큐로 두고 다리 위에 올라가고, 다리에서 빠져나가고를 실제로 굴림
         
